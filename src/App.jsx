@@ -1,11 +1,11 @@
-
 import "./App.css";
+import Hero from "./Hero/Hero";
 
 function App() {
   return (
     <div className='App'>
       <div className='container'>
-        <h1 class='text-3xl font-bold underline'>Hello world!</h1>
+        <Hero />
       </div>
     </div>
   );
